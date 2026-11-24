@@ -161,9 +161,10 @@
           "Equipamentos e Bike",
           "Engenharia",
           "Empresarial e patrimonial",
-          "Cyber",
-          "Outras linhas (auto, vida, saúde etc.)"
-        ]
+          "Cyber"
+        ],
+        "other": true,
+        "otherLabel": "Outras linhas (auto, vida, saúde etc.)"
       },
       {
         "id": "f-frequencia",
@@ -222,5 +223,5 @@
     }
   },
   "createdAt": "2026-11-24T12:00:00Z",
-  "updatedAt": "2026-11-24T12:00:00Z"
+  "updatedAt": "2026-11-24T15:34:11Z"
 }
