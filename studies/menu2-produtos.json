@@ -1,0 +1,325 @@
+{
+  "id": "menu2-produtos",
+  "title": "Menu 2.0 · Estudo 1 — Produtos",
+  "description": "Onde os corretores procuram cada produto na hora de cotar (menu Nova Cotação).",
+  "instructions": "Coloque cada seguro na categoria onde você procuraria por ele na hora de cotar para um cliente. Se nenhuma categoria servir, crie uma nova e dê um nome. Se não souber o que é algum item, coloque em “Não sei o que é”.",
+  "type": "hybrid",
+  "cards": [
+    {
+      "id": "p01",
+      "label": "RC Profissional",
+      "description": "Erros profissionais de advogados, médicos, dentistas, contadores, engenheiros, corretores e outras profissões.",
+      "expected": "Responsabilidade Civil"
+    },
+    {
+      "id": "p02",
+      "label": "D&O",
+      "description": "Responsabilidade de diretores e administradores.",
+      "expected": "Responsabilidade Civil"
+    },
+    {
+      "id": "p03",
+      "label": "RC Geral",
+      "description": "Danos a terceiros causados pela operação da empresa.",
+      "expected": "Responsabilidade Civil"
+    },
+    {
+      "id": "p04",
+      "label": "RC Obras",
+      "description": "Danos a terceiros causados durante uma obra.",
+      "expected": "Responsabilidade Civil"
+    },
+    {
+      "id": "p05",
+      "label": "RC Eventos",
+      "description": "Danos a terceiros em shows, feiras e eventos.",
+      "expected": "Responsabilidade Civil"
+    },
+    {
+      "id": "p06",
+      "label": "RC Testes clínicos",
+      "description": "Danos a participantes de pesquisas clínicas.",
+      "expected": "Responsabilidade Civil"
+    },
+    {
+      "id": "p07",
+      "label": "RC Condutor",
+      "description": "Motorista de carro alugado, de aplicativo ou de empresa.",
+      "expected": "Responsabilidade Civil"
+    },
+    {
+      "id": "p08",
+      "label": "RCTR-C, RC-DC e RC-V",
+      "description": "Transportador rodoviário de cargas no Brasil.",
+      "expected": "Transportes"
+    },
+    {
+      "id": "p09",
+      "label": "RCTR-VI",
+      "description": "Transportador em viagem internacional.",
+      "expected": "Transportes"
+    },
+    {
+      "id": "p10",
+      "label": "Embarcador nacional",
+      "description": "Mercadorias de quem envia cargas dentro do Brasil.",
+      "expected": "Transportes"
+    },
+    {
+      "id": "p11",
+      "label": "Embarcador internacional",
+      "description": "Mercadorias de exportação e importação.",
+      "expected": "Transportes"
+    },
+    {
+      "id": "p12",
+      "label": "Cargas avulsas internacionais",
+      "description": "Um embarque internacional pontual.",
+      "expected": "Transportes"
+    },
+    {
+      "id": "p13",
+      "label": "Transporte aéreo",
+      "description": "Cargas transportadas por avião.",
+      "expected": "Transportes"
+    },
+    {
+      "id": "p14",
+      "label": "Transporte aquaviário",
+      "description": "Cargas transportadas por navio ou barco.",
+      "expected": "Transportes"
+    },
+    {
+      "id": "p15",
+      "label": "Transporte ambiental de cargas",
+      "description": "Danos ambientais causados por acidente com a carga.",
+      "expected": "Transportes"
+    },
+    {
+      "id": "p16",
+      "label": "Garantia do executante",
+      "description": "Cumprimento de contrato de obra, fornecimento ou serviço.",
+      "expected": "Garantia"
+    },
+    {
+      "id": "p17",
+      "label": "Garantia do licitante",
+      "description": "Participação em licitação.",
+      "expected": "Garantia"
+    },
+    {
+      "id": "p18",
+      "label": "Garantia de manutenção corretiva",
+      "description": "Correção de defeitos depois da entrega do contrato.",
+      "expected": "Garantia"
+    },
+    {
+      "id": "p19",
+      "label": "Garantia de adiantamento e retenção de pagamento",
+      "description": "Valores pagos antecipadamente ou retidos no contrato.",
+      "expected": "Garantia"
+    },
+    {
+      "id": "p20",
+      "label": "Garantia judicial – Depósito recursal",
+      "description": "Substitui o depósito para recorrer na Justiça do Trabalho.",
+      "expected": "Garantia"
+    },
+    {
+      "id": "p21",
+      "label": "Garantia judicial trabalhista e cível",
+      "description": "Substitui depósitos e penhoras em processos trabalhistas e cíveis.",
+      "expected": "Garantia"
+    },
+    {
+      "id": "p22",
+      "label": "Garantia judicial fiscal",
+      "description": "Execução fiscal e garantia fiscal antecipatória.",
+      "expected": "Garantia"
+    },
+    {
+      "id": "p23",
+      "label": "Garantia habitacional",
+      "description": "Término de obra, manutenção pós-entrega e infraestrutura de empreendimentos imobiliários.",
+      "expected": "Garantia"
+    },
+    {
+      "id": "p24",
+      "label": "Garantia de compra e venda de energia",
+      "description": "Contratos de compra e venda de energia elétrica.",
+      "expected": "Garantia"
+    },
+    {
+      "id": "p25",
+      "label": "Máquinas e equipamentos",
+      "description": "Máquinas e equipamentos móveis e estacionários.",
+      "expected": "Equipamentos"
+    },
+    {
+      "id": "p26",
+      "label": "Bike",
+      "description": "Bicicletas comuns e elétricas.",
+      "expected": "Equipamentos"
+    },
+    {
+      "id": "p27",
+      "label": "Riscos de engenharia",
+      "description": "Obras civis e montagens.",
+      "expected": "Engenharia"
+    },
+    {
+      "id": "p28",
+      "label": "Riscos operacionais",
+      "description": "Danos a instalações e máquinas de empresas em operação.",
+      "expected": "Engenharia"
+    },
+    {
+      "id": "p29",
+      "label": "Empresarial",
+      "description": "Patrimônio de empresas (incêndio, roubo, danos elétricos).",
+      "expected": "Sem categoria"
+    },
+    {
+      "id": "p30",
+      "label": "Cyber",
+      "description": "Ataques hackers e vazamento de dados.",
+      "expected": "Sem categoria"
+    },
+    {
+      "id": "p31",
+      "label": "DPEM",
+      "description": "Seguro obrigatório de embarcações.",
+      "expected": "Sem categoria"
+    }
+  ],
+  "categories": [
+    {
+      "id": "cat-rc",
+      "name": "Responsabilidade Civil"
+    },
+    {
+      "id": "cat-transportes",
+      "name": "Transportes"
+    },
+    {
+      "id": "cat-garantia",
+      "name": "Garantia"
+    },
+    {
+      "id": "cat-equipamentos",
+      "name": "Equipamentos"
+    },
+    {
+      "id": "cat-engenharia",
+      "name": "Engenharia"
+    }
+  ],
+  "status": "active",
+  "randomizeCards": true,
+  "requireAllSorted": true,
+  "dontKnow": true,
+  "agreementThreshold": 0.7,
+  "script": {
+    "welcome": {
+      "enabled": true,
+      "title": "Ajude a melhorar o menu do Portal Akad",
+      "text": "Queremos entender como você procura os seguros da Akad na hora de cotar. Você vai organizar uma lista de produtos do jeito que faz sentido para você.\n\nNão existe resposta certa ou errada: o que importa é como você pensa.",
+      "minutes": 12
+    },
+    "consent": {
+      "enabled": true,
+      "title": "Antes de começar",
+      "text": "Esta pesquisa é feita pelo time de Experiência do Usuário da Akad Seguros para melhorar o menu do Portal Akad Digital.\n\n* **O que vamos registrar:** suas respostas, a forma como você organizou os itens e dados de uso da pesquisa (tempo de resposta, tipo de dispositivo e navegador). Não pedimos seu nome, e-mail nem CPF.\n* **Para que:** só para entender como os corretores procuram produtos e funcionalidades no Portal. As respostas são analisadas em conjunto e não são usadas para avaliar você nem a sua corretora.\n* **Participação voluntária:** você pode sair a qualquer momento, sem nenhum prejuízo.\n* **Por quanto tempo:** os dados ficam guardados até o fim do projeto do novo menu, por no máximo 12 meses, e depois são apagados.\n\nDúvidas ou pedidos sobre seus dados: privacidade@akadseguros.com.br. Saiba mais na nossa [Política de Privacidade](https://akadseguros.com.br/politica-de-privacidade/).",
+      "policyUrl": "https://akadseguros.com.br/politica-de-privacidade/",
+      "acceptLabel": "Li e concordo em participar desta pesquisa.",
+      "declineText": "Tudo bem! Obrigado pelo seu tempo. Você pode fechar esta página."
+    },
+    "pre": [
+      {
+        "id": "p-tempo",
+        "type": "single",
+        "title": "Há quanto tempo você trabalha como corretor de seguros?",
+        "required": true,
+        "options": [
+          "Menos de 1 ano",
+          "De 1 a 3 anos",
+          "De 4 a 10 anos",
+          "Mais de 10 anos"
+        ]
+      },
+      {
+        "id": "p-linhas",
+        "type": "multi",
+        "title": "Quais linhas você mais vende?",
+        "required": true,
+        "maxSelect": 3,
+        "options": [
+          "Responsabilidade Civil",
+          "Transportes",
+          "Garantia",
+          "Equipamentos e Bike",
+          "Engenharia",
+          "Empresarial e patrimonial",
+          "Cyber",
+          "Outras linhas (auto, vida, saúde etc.)"
+        ]
+      },
+      {
+        "id": "p-frequencia",
+        "type": "single",
+        "title": "Com que frequência você faz cotações pelo Portal Akad?",
+        "required": true,
+        "options": [
+          "Todos os dias",
+          "Algumas vezes por semana",
+          "Algumas vezes por mês",
+          "Menos de uma vez por mês",
+          "Nunca cotei pelo Portal"
+        ]
+      },
+      {
+        "id": "p-ultima-vez",
+        "type": "long",
+        "title": "Conte a última vez que você não encontrou um produto no Portal Akad. O que fez?",
+        "required": false
+      },
+      {
+        "id": "p-facilidade",
+        "type": "scale",
+        "title": "Hoje, quão fácil é encontrar no Portal o produto que você quer cotar?",
+        "required": true,
+        "scaleMax": 5,
+        "minLabel": "Muito difícil",
+        "maxLabel": "Muito fácil"
+      }
+    ],
+    "instructionsScreen": true,
+    "askCreatedCategories": true,
+    "post": [
+      {
+        "id": "p-dificeis",
+        "type": "cards",
+        "title": "Quais cards foram mais difíceis de colocar?",
+        "help": "Se nenhum foi difícil, pode pular.",
+        "required": false,
+        "maxSelect": 5
+      },
+      {
+        "id": "p-faltou",
+        "type": "long",
+        "title": "Sentiu falta de algum produto? Qual?",
+        "required": false
+      }
+    ],
+    "thanks": {
+      "title": "Obrigado pela participação!",
+      "text": "Suas respostas foram enviadas ao time de Experiência do Usuário da Akad. Elas vão ajudar a deixar o menu do Portal mais fácil de usar.",
+      "incentive": "",
+      "interviewOptIn": true,
+      "optInText": "Topa uma conversa de 30 minutos? Queremos entender melhor como você usa o Portal. Se quiser participar, deixe seu contato abaixo. Ele fica guardado separado das suas respostas e será usado só para combinarmos a conversa.",
+      "optInConsent": "Concordo que a Akad use estes dados só para me convidar para a entrevista desta pesquisa."
+    }
+  },
+  "createdAt": "2026-11-24T12:00:00Z",
+  "updatedAt": "2026-11-24T12:00:00Z"
+}

@@ -1,0 +1,226 @@
+{
+  "id": "menu2-ferramentas",
+  "title": "Menu 2.0 · Estudo 2 — Ferramentas",
+  "description": "Como os corretores agrupam e nomeiam as funcionalidades do Portal (menu Ferramentas).",
+  "instructions": "Organize estas funcionalidades do Portal em grupos do jeito que faria sentido para você no dia a dia, e dê um nome para cada grupo. Se não souber o que é algum item, coloque em “Não sei o que é”.",
+  "type": "open",
+  "cards": [
+    {
+      "id": "f01",
+      "label": "Central de Cotações",
+      "description": "Acompanhar as cotações feitas e retomar as que estão em andamento.",
+      "expected": "Consultas"
+    },
+    {
+      "id": "f02",
+      "label": "Apólices",
+      "description": "Consultar as apólices emitidas e baixar os documentos.",
+      "expected": "Consultas"
+    },
+    {
+      "id": "f03",
+      "label": "Renovações",
+      "description": "Ver as apólices perto do vencimento e renovar.",
+      "expected": "Consultas"
+    },
+    {
+      "id": "f04",
+      "label": "Tomadores",
+      "description": "Consultar as empresas tomadoras cadastradas para o seguro garantia.",
+      "expected": "Consultas"
+    },
+    {
+      "id": "f05",
+      "label": "Sinistros",
+      "description": "Acompanhar os sinistros já avisados.",
+      "expected": "Consultas"
+    },
+    {
+      "id": "f06",
+      "label": "Leads",
+      "description": "Ver os contatos de possíveis clientes indicados para a corretora.",
+      "expected": "Consultas"
+    },
+    {
+      "id": "f07",
+      "label": "Visão da carteira",
+      "description": "Resumo das apólices e dos prêmios da sua carteira na Akad.",
+      "expected": "Consultas"
+    },
+    {
+      "id": "f08",
+      "label": "Relatórios",
+      "description": "Gerar e baixar relatórios da corretora.",
+      "expected": "Serviços"
+    },
+    {
+      "id": "f09",
+      "label": "Notificar sinistro",
+      "description": "Avisar a Akad sobre um sinistro novo.",
+      "expected": "Serviços"
+    },
+    {
+      "id": "f10",
+      "label": "Cadastrar tomador",
+      "description": "Cadastrar uma empresa tomadora para cotar seguro garantia.",
+      "expected": "Serviços"
+    },
+    {
+      "id": "f11",
+      "label": "Campanhas",
+      "description": "Ver as campanhas comerciais e de incentivo da Akad.",
+      "expected": "Serviços"
+    },
+    {
+      "id": "f12",
+      "label": "Grupos de afinidade",
+      "description": "Gerenciar grupos de clientes com condições especiais.",
+      "expected": "Serviços"
+    },
+    {
+      "id": "f13",
+      "label": "Extrato de comissão",
+      "description": "Ver as comissões recebidas e a receber.",
+      "expected": "Financeiro"
+    },
+    {
+      "id": "f14",
+      "label": "Informe de rendimentos",
+      "description": "Baixar o informe de rendimentos para o imposto de renda.",
+      "expected": "Financeiro"
+    },
+    {
+      "id": "f15",
+      "label": "Controle de parcelas",
+      "description": "Acompanhar as parcelas pagas e em aberto das apólices.",
+      "expected": "Financeiro"
+    },
+    {
+      "id": "f16",
+      "label": "Painel financeiro",
+      "description": "Visão geral dos números financeiros da corretora.",
+      "expected": "Financeiro"
+    },
+    {
+      "id": "f17",
+      "label": "Gerenciar usuários",
+      "description": "Cadastrar e gerenciar os acessos da equipe da corretora ao Portal.",
+      "expected": "Usuários"
+    },
+    {
+      "id": "f18",
+      "label": "Minha conta",
+      "description": "Ver e alterar os seus dados de cadastro.",
+      "expected": "Usuários"
+    }
+  ],
+  "categories": [],
+  "status": "active",
+  "randomizeCards": true,
+  "requireAllSorted": true,
+  "dontKnow": true,
+  "agreementThreshold": 0.7,
+  "script": {
+    "welcome": {
+      "enabled": true,
+      "title": "Ajude a melhorar o menu do Portal Akad",
+      "text": "Queremos entender como você organiza as tarefas do dia a dia no Portal Akad. Você vai agrupar uma lista de funcionalidades do jeito que faz sentido para você.\n\nNão existe resposta certa ou errada: o que importa é como você pensa.",
+      "minutes": 9
+    },
+    "consent": {
+      "enabled": true,
+      "title": "Antes de começar",
+      "text": "Esta pesquisa é feita pelo time de Experiência do Usuário da Akad Seguros para melhorar o menu do Portal Akad Digital.\n\n* **O que vamos registrar:** suas respostas, a forma como você organizou os itens e dados de uso da pesquisa (tempo de resposta, tipo de dispositivo e navegador). Não pedimos seu nome, e-mail nem CPF.\n* **Para que:** só para entender como os corretores procuram produtos e funcionalidades no Portal. As respostas são analisadas em conjunto e não são usadas para avaliar você nem a sua corretora.\n* **Participação voluntária:** você pode sair a qualquer momento, sem nenhum prejuízo.\n* **Por quanto tempo:** os dados ficam guardados até o fim do projeto do novo menu, por no máximo 12 meses, e depois são apagados.\n\nDúvidas ou pedidos sobre seus dados: privacidade@akadseguros.com.br. Saiba mais na nossa [Política de Privacidade](https://akadseguros.com.br/politica-de-privacidade/).",
+      "policyUrl": "https://akadseguros.com.br/politica-de-privacidade/",
+      "acceptLabel": "Li e concordo em participar desta pesquisa.",
+      "declineText": "Tudo bem! Obrigado pelo seu tempo. Você pode fechar esta página."
+    },
+    "pre": [
+      {
+        "id": "f-tempo",
+        "type": "single",
+        "title": "Há quanto tempo você trabalha como corretor de seguros?",
+        "required": true,
+        "options": [
+          "Menos de 1 ano",
+          "De 1 a 3 anos",
+          "De 4 a 10 anos",
+          "Mais de 10 anos"
+        ]
+      },
+      {
+        "id": "f-linhas",
+        "type": "multi",
+        "title": "Quais linhas você mais vende?",
+        "required": true,
+        "maxSelect": 3,
+        "options": [
+          "Responsabilidade Civil",
+          "Transportes",
+          "Garantia",
+          "Equipamentos e Bike",
+          "Engenharia",
+          "Empresarial e patrimonial",
+          "Cyber",
+          "Outras linhas (auto, vida, saúde etc.)"
+        ]
+      },
+      {
+        "id": "f-frequencia",
+        "type": "single",
+        "title": "Com que frequência você faz cotações pelo Portal Akad?",
+        "required": true,
+        "options": [
+          "Todos os dias",
+          "Algumas vezes por semana",
+          "Algumas vezes por mês",
+          "Menos de uma vez por mês",
+          "Nunca cotei pelo Portal"
+        ]
+      },
+      {
+        "id": "f-ultima-vez",
+        "type": "long",
+        "title": "Conte a última vez que você não encontrou uma funcionalidade no Portal Akad. O que fez?",
+        "required": false
+      },
+      {
+        "id": "f-facilidade",
+        "type": "scale",
+        "title": "Hoje, quão fácil é encontrar no Portal a funcionalidade que você precisa?",
+        "required": true,
+        "scaleMax": 5,
+        "minLabel": "Muito difícil",
+        "maxLabel": "Muito fácil"
+      }
+    ],
+    "instructionsScreen": true,
+    "askCreatedCategories": true,
+    "post": [
+      {
+        "id": "f-dificeis",
+        "type": "cards",
+        "title": "Quais cards foram mais difíceis de colocar?",
+        "help": "Se nenhum foi difícil, pode pular.",
+        "required": false,
+        "maxSelect": 5
+      },
+      {
+        "id": "f-faltou",
+        "type": "long",
+        "title": "Sentiu falta de alguma funcionalidade? Qual?",
+        "required": false
+      }
+    ],
+    "thanks": {
+      "title": "Obrigado pela participação!",
+      "text": "Suas respostas foram enviadas ao time de Experiência do Usuário da Akad. Elas vão ajudar a deixar o menu do Portal mais fácil de usar.",
+      "incentive": "",
+      "interviewOptIn": true,
+      "optInText": "Topa uma conversa de 30 minutos? Queremos entender melhor como você usa o Portal. Se quiser participar, deixe seu contato abaixo. Ele fica guardado separado das suas respostas e será usado só para combinarmos a conversa.",
+      "optInConsent": "Concordo que a Akad use estes dados só para me convidar para a entrevista desta pesquisa."
+    }
+  },
+  "createdAt": "2026-11-24T12:00:00Z",
+  "updatedAt": "2026-11-24T12:00:00Z"
+}

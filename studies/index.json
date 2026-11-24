@@ -1,0 +1,12 @@
+{
+  "studies": [
+    "menu2-produtos",
+    "menu2-ferramentas"
+  ],
+  "groups": {
+    "menu-2-0": [
+      "menu2-produtos",
+      "menu2-ferramentas"
+    ]
+  }
+}
