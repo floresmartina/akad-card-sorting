@@ -299,6 +299,23 @@
     "askCreatedCategories": true,
     "post": [
       {
+        "id": "p-rcp-primeiro",
+        "type": "single",
+        "title": "Quando você vai cotar um RC Profissional, o que escolhe primeiro?",
+        "required": true,
+        "options": [
+          "A profissão do cliente (advogado, médico…)",
+          "Se o cliente é pessoa física ou jurídica",
+          "Tanto faz"
+        ]
+      },
+      {
+        "id": "p-rcp-porque",
+        "type": "short",
+        "title": "Por quê?",
+        "required": false
+      },
+      {
         "id": "p-dificeis",
         "type": "cards",
         "title": "Quais cards foram mais difíceis de colocar?",
@@ -323,5 +340,5 @@
     }
   },
   "createdAt": "2026-11-24T12:00:00Z",
-  "updatedAt": "2026-11-25T15:00:00Z"
+  "updatedAt": "2026-11-26T12:00:00Z"
 }
