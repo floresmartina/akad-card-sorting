@@ -216,6 +216,7 @@
   ],
   "status": "active",
   "randomizeCards": true,
+  "randomizeCategories": true,
   "requireAllSorted": true,
   "dontKnow": true,
   "agreementThreshold": 0.7,
@@ -322,5 +323,5 @@
     }
   },
   "createdAt": "2026-11-24T12:00:00Z",
-  "updatedAt": "2026-11-24T15:34:11Z"
+  "updatedAt": "2026-11-25T15:00:00Z"
 }
