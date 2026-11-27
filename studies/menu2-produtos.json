@@ -230,10 +230,15 @@
     "consent": {
       "enabled": true,
       "title": "Antes de começar",
-      "text": "Esta pesquisa é feita pelo time de Experiência do Usuário da Akad Seguros para melhorar o menu do Portal Akad Digital.\n\n* **O que vamos registrar:** suas respostas, a forma como você organizou os itens e dados de uso da pesquisa (tempo de resposta, tipo de dispositivo e navegador). Não pedimos seu nome, e-mail nem CPF.\n* **Para que:** só para entender como os corretores procuram produtos e funcionalidades no Portal. As respostas são analisadas em conjunto e não são usadas para avaliar você nem a sua corretora.\n* **Participação voluntária:** você pode sair a qualquer momento, sem nenhum prejuízo.\n* **Por quanto tempo:** os dados ficam guardados até o fim do projeto do novo menu, por no máximo 12 meses, e depois são apagados.\n\nDúvidas ou pedidos sobre seus dados: privacidade@akadseguros.com.br. Saiba mais na nossa [Política de Privacidade](https://akadseguros.com.br/politica-de-privacidade/).",
+      "text": "Esta pesquisa é feita pelo time de Experiência do Usuário da Akad Seguros para melhorar o menu do Portal Akad Digital.\n\n* **O que vamos registrar:** seu nome, e-mail e o CNPJ da sua corretora, suas respostas, a forma como você organizou os itens e dados de uso da pesquisa (tempo de resposta, tipo de dispositivo e navegador).\n* **Seus dados de identificação:** são usados só para o sorteio e para falar com você, se você for sorteado ou topar a entrevista.\n* **Para que:** só para entender como os corretores procuram produtos e funcionalidades no Portal. As respostas são analisadas em conjunto e não são usadas para avaliar você nem a sua corretora.\n* **Participação voluntária:** você pode sair a qualquer momento, sem nenhum prejuízo.\n* **Por quanto tempo:** os dados ficam guardados até o fim do projeto do novo menu, por no máximo 12 meses, e depois são apagados.\n\nDúvidas ou pedidos sobre seus dados: privacidade@akadseguros.com.br. Saiba mais na nossa [Política de Privacidade](https://akadseguros.com.br/politica-de-privacidade/).",
       "policyUrl": "https://akadseguros.com.br/politica-de-privacidade/",
       "acceptLabel": "Li e concordo em participar desta pesquisa.",
       "declineText": "Tudo bem! Obrigado pelo seu tempo. Você pode fechar esta página."
+    },
+    "identification": {
+      "enabled": true,
+      "title": "Seus dados",
+      "text": "Precisamos saber quem está respondendo para o sorteio. Usamos estes dados só para identificar sua participação e falar com você se for sorteado."
     },
     "pre": [
       {
@@ -335,10 +340,10 @@
       "text": "Suas respostas foram enviadas ao time de Experiência do Usuário da Akad. Elas vão ajudar a deixar o menu do Portal mais fácil de usar.",
       "incentive": "",
       "interviewOptIn": true,
-      "optInText": "Topa uma conversa de 30 minutos? Queremos entender melhor como você usa o Portal. Se quiser participar, deixe seu contato abaixo. Ele fica guardado separado das suas respostas e será usado só para combinarmos a conversa.",
-      "optInConsent": "Concordo que a Akad use estes dados só para me convidar para a entrevista desta pesquisa."
+      "optInText": "Topa uma conversa de 30 minutos? Queremos entender melhor como você usa o Portal. Se quiser participar, deixe seu celular abaixo. Ele será usado só para combinarmos a conversa.",
+      "optInConsent": "Concordo que a Akad use meu celular só para me convidar para a entrevista desta pesquisa."
     }
   },
   "createdAt": "2026-11-24T12:00:00Z",
-  "updatedAt": "2026-11-26T12:00:00Z"
+  "updatedAt": "2026-11-27T15:30:00.000Z"
 }
