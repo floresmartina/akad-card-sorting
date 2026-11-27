@@ -238,7 +238,16 @@
     "identification": {
       "enabled": true,
       "title": "Seus dados",
-      "text": "Precisamos saber quem está respondendo para o sorteio. Usamos estes dados só para identificar sua participação e falar com você se for sorteado."
+      "text": "Precisamos saber quem está respondendo para o sorteio. Usamos estes dados só para identificar sua participação e falar com você se for sorteado.",
+      "skipOrigins": [
+        "stakeholders",
+        "pms",
+        "devs",
+        "atendimento",
+        "operacoes",
+        "teste",
+        "piloto"
+      ]
     },
     "pre": [
       {
@@ -345,5 +354,5 @@
     }
   },
   "createdAt": "2026-11-24T12:00:00Z",
-  "updatedAt": "2026-11-27T15:30:00.000Z"
+  "updatedAt": "2026-11-27T18:30:00.000Z"
 }
