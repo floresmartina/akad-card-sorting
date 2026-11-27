@@ -349,6 +349,18 @@
         "type": "long",
         "title": "Sentiu falta de algum produto? Qual?",
         "required": false
+      },
+      {
+        "id": "p-atendimento-onde",
+        "type": "cards",
+        "title": "Quais destes produtos os corretores mais perguntam onde ficam no Portal?",
+        "help": "Pense nas dúvidas que chegam até você. Marque até 5.",
+        "required": false,
+        "maxSelect": 5,
+        "onlyOrigins": [
+          "atendimento",
+          "operacoes"
+        ]
       }
     ],
     "thanks": {
@@ -361,5 +373,5 @@
     }
   },
   "createdAt": "2026-11-24T12:00:00Z",
-  "updatedAt": "2026-11-27T19:00:00.000Z"
+  "updatedAt": "2026-11-27T19:30:00.000Z"
 }
