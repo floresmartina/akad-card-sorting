@@ -238,17 +238,17 @@
     "identification": {
       "enabled": true,
       "title": "Seus dados",
-      "text": "Precisamos saber quem está respondendo para o sorteio. Usamos estes dados só para identificar sua participação e falar com você se for sorteado.",
-      "skipOrigins": [
-        "stakeholders",
-        "pms",
-        "devs",
-        "atendimento",
-        "operacoes",
-        "teste",
-        "piloto"
-      ]
+      "text": "Precisamos saber quem está respondendo para o sorteio. Usamos estes dados só para identificar sua participação e falar com você se for sorteado."
     },
+    "internalOrigins": [
+      "stakeholders",
+      "pms",
+      "devs",
+      "atendimento",
+      "operacoes",
+      "teste",
+      "piloto"
+    ],
     "pre": [
       {
         "id": "p-tempo",
@@ -260,7 +260,8 @@
           "De 1 a 3 anos",
           "De 4 a 10 anos",
           "Mais de 10 anos"
-        ]
+        ],
+        "corretorOnly": true
       },
       {
         "id": "p-linhas",
@@ -278,7 +279,8 @@
           "Cyber"
         ],
         "other": true,
-        "otherLabel": "Outras linhas (auto, vida, saúde etc.)"
+        "otherLabel": "Outras linhas (auto, vida, saúde etc.)",
+        "corretorOnly": true
       },
       {
         "id": "p-frequencia",
@@ -291,13 +293,15 @@
           "Algumas vezes por mês",
           "Menos de uma vez por mês",
           "Nunca cotei pelo Portal"
-        ]
+        ],
+        "corretorOnly": true
       },
       {
         "id": "p-ultima-vez",
         "type": "long",
         "title": "Conte a última vez que você não encontrou um produto no Portal Akad. O que fez?",
-        "required": false
+        "required": false,
+        "corretorOnly": true
       },
       {
         "id": "p-facilidade",
@@ -306,7 +310,8 @@
         "required": true,
         "scaleMax": 5,
         "minLabel": "Muito difícil",
-        "maxLabel": "Muito fácil"
+        "maxLabel": "Muito fácil",
+        "corretorOnly": true
       }
     ],
     "instructionsScreen": true,
@@ -321,13 +326,15 @@
           "A profissão do cliente (advogado, médico…)",
           "Se o cliente é pessoa física ou jurídica",
           "Tanto faz"
-        ]
+        ],
+        "corretorOnly": true
       },
       {
         "id": "p-rcp-porque",
         "type": "short",
         "title": "Por quê?",
-        "required": false
+        "required": false,
+        "corretorOnly": true
       },
       {
         "id": "p-dificeis",
@@ -354,5 +361,5 @@
     }
   },
   "createdAt": "2026-11-24T12:00:00Z",
-  "updatedAt": "2026-11-27T18:30:00.000Z"
+  "updatedAt": "2026-11-27T19:00:00.000Z"
 }
